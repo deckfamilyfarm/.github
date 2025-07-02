@@ -25,7 +25,7 @@ All servers and databases are hosted on **[DigitalOcean](https://www.digitalocea
 
 ### Infrastructure:
 - **Droplets** host backend Node.js applications and NGINX reverse proxies.
-- **PostgreSQL** databases are also hosted on DigitalOcean.
+- **Mysql** databases are also hosted on DigitalOcean.
 - PM2 is used to manage long-running services.
 - NGINX is configured to serve all API endpoints under `api.deckfamilyfarm.com`.
 
@@ -35,8 +35,7 @@ All servers and databases are hosted on **[DigitalOcean](https://www.digitalocea
 
 | Repo | Purpose |
 |------|---------|
-| [`reports`](https://github.com/deckfamilyfarm/reports) | PDF generation, analytics, and reporting |
-| [`marketing`](https://github.com/deckfamilyfarm/marketing) | Site content, price sheets, and GitHub Pages |
+| [`marketing`](https://github.com/deckfamilyfarm/marketing) | Reports, Site content, price sheets, and GitHub Pages |
 | [`herdlist`](https://github.com/deckfamilyfarm/herdlist) | Animal management and data import/export |
 | [`killdeer`](https://github.com/deckfamilyfarm/killdeer) | API server for products, pricing, inventory |
 | `.github` | Org-wide documentation (you are here) |
