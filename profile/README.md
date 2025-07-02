@@ -35,8 +35,9 @@ All servers and databases are hosted on **[DigitalOcean](https://www.digitalocea
 
 | Repo | Purpose |
 |------|---------|
+| [`killdeer`](https://github.com/deckfamilyfarm/killdeer) | API server and reports for products, pricing, inventory |
 | [`herdlist`](https://github.com/deckfamilyfarm/herdlist) | Animal management and data import/export |
-| [`killdeer`](https://github.com/deckfamilyfarm/killdeer) | API server for products, pricing, inventory |
+| [`entities`](https://github.com/deckfamilyfarm/entities) | Visualize entity relationships/Diagram |
 | `.github` | Org-wide documentation (you are here) |
 
 ---
@@ -57,9 +58,10 @@ If you're stepping in to manage or support this system:
 - Start by reading through each repo’s individual `README.md`.
 - Connect to the DigitalOcean dashboard (contact `jdeck88@gmail.com` for credentials or shared access).
 - Review NGINX config in `/etc/nginx/sites-available/` on the production droplet.
-- APIs are deployed under `https://api.deckfamilyfarm.com`.
 - `killdeer` is the canonical API for inventory, prices, and products.
 - All scheduled scripts and services are managed via PM2 on the droplet (`pm2 list`).
+- APIs are deployed under `https://api.deckfamilyfarm.com`.
+- Reports are deployed under `https://reports.deckfamilyfarm.com`.
 
 ---
 
