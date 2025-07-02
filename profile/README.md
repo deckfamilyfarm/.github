@@ -35,7 +35,6 @@ All servers and databases are hosted on **[DigitalOcean](https://www.digitalocea
 
 | Repo | Purpose |
 |------|---------|
-| [`marketing`](https://github.com/deckfamilyfarm/marketing) | Reports, Site content, price sheets, and GitHub Pages |
 | [`herdlist`](https://github.com/deckfamilyfarm/herdlist) | Animal management and data import/export |
 | [`killdeer`](https://github.com/deckfamilyfarm/killdeer) | API server for products, pricing, inventory |
 | `.github` | Org-wide documentation (you are here) |
